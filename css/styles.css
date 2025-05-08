@@ -1,7 +1,3 @@
-* {
-    /* outline: 1px solid red; */
-}
-
 @font-face {
     font-family: "digital-7";
     src: url("../fonts/digital-7.ttf");
@@ -24,11 +20,11 @@ body {
 .calc-container {
     width: 306px;
     border: 12px solid #1C1C1C;
-    background-color: #DDC5A1;
+    background-color: #dbc9ae;
     border-radius: 6px;
 }
 
-.calc-container .header {
+.calc-container header {
     background-color: #292929;
 }
 
@@ -36,9 +32,11 @@ body {
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid #7B323A;
+    padding: 5px 0;
 }
 
-.title p {
+.title h6,
+p {
     font-family: "square-sans-serif";
     font-size: 20px;
     margin: 0;
@@ -46,6 +44,7 @@ body {
     color: #c0aa8a;
     display: flex;
     align-items: center;
+    font-weight: 400;
 }
 
 .title .model {
@@ -59,18 +58,15 @@ body {
 
 .display-screen {
     font-family: "digital-7";
-    font-size: 40px;
+    font-size: 55px;
     text-align: end;
     border: 6px solid #1C1C1C;
-    padding: 0 5px;
+    padding: 5px;
     background-color: #88897B;
     border-radius: 3px;
     line-height: normal;
 }
 
-.display-screen .previous {
-    font-size: 30px;
-}
 .buttons-container {
     padding: 5px;
 }
@@ -83,9 +79,9 @@ body {
     margin: 4px 3px;
     border-radius: 0.5;
     border: 5px solid #292929;
-    background: rgb(63,63,63);
-    background: linear-gradient(90deg, rgba(63,63,63,1) 0%, rgba(56,56,56,1) 27%, rgba(42,42,42,1) 100%);
-    color: #dfdfdf;
+    background: rgb(63, 63, 63);
+    background: linear-gradient(90deg, rgba(63, 63, 63, 1) 0%, rgba(56, 56, 56, 1) 27%, rgba(42, 42, 42, 1) 100%);
+    color: #d3cbc0;
     border-radius: 3px;
     cursor: pointer;
 }
